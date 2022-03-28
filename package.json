@@ -1,0 +1,37 @@
+{
+  "name": "s3test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "fbjs": "^3.0.4",
+    "react": "17.0.2",
+    "react-native": "0.67.4",
+    "react-native-aws3": "^0.0.9",
+    "react-native-blob-util": "^0.14.1",
+    "react-native-camera": "^4.2.1",
+    "react-native-camera-hooks": "^0.5.3",
+    "react-native-document-picker": "^8.0.0",
+    "react-native-image-picker": "^4.7.3",
+    "react-native-pdf": "^6.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/runtime": "^7.17.8",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.11.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.69.1",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
